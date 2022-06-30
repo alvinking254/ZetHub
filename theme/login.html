@@ -1,22 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="style.css" />
-    <title>StudyBuddy - Find study partners around the world!</title>
-  </head>
-  <body>
+    <title>ZetHub - Find study partners around the world!</title>
+</head>
+
+<body>
     <header class="header header--loggedIn">
-      <div class="container">
-        <a href="/" class="header__logo">
-          <img src="assets/logo.svg" />
-          <h1>StudyBuddy</h1>
-        </a>
-        <form class="header__search">
-          <label>
+        <div class="container">
+            <a href="/" class="header__logo">
+                <img src="assets/logo.svg" />
+                <h1>ZetHub</h1>
+            </a>
+            <form class="header__search">
+                <label>
             <svg
               version="1.1"
               xmlns="http://www.w3.org/2000/svg"
@@ -31,16 +33,16 @@
             </svg>
             <input placeholder="Search for posts" />
           </label>
-        </form>
-        <nav class="header__menu">
-          <!-- Not Logged In -->
-          <a href="/login.html">
-            <img src="./assets/avatar.svg" />
-            <p>Account</p>
-          </a>
+            </form>
+            <nav class="header__menu">
+                <!-- Not Logged In -->
+                <a href="/login.html">
+                    <img src="./assets/avatar.svg" />
+                    <p>Account</p>
+                </a>
 
-          <!-- Logged In -->
-          <!-- <a href="#">
+                <!-- Logged In -->
+                <!-- <a href="#">
             <div class="avatar avatar--medium active">
               <img src="https://randomuser.me/api/portraits/men/37.jpg" />
             </div>
@@ -56,36 +58,31 @@
               <path d="M16 21l-13-13h-3l16 16 16-16h-3l-13 13z"></path>
             </svg>
           </a> -->
-        </nav>
-      </div>
+            </nav>
+        </div>
     </header>
     <main class="auth layout">
-      <div class="container">
-        <div class="layout__box">
-          <div class="layout__boxHeader">
-            <div class="layout__boxTitle">
-              <h3>Login</h3>
-            </div>
-          </div>
-          <div class="layout__body">
-            <h2 class="auth__tagline">Find your study partner</h2>
+        <div class="container">
+            <div class="layout__box">
+                <div class="layout__boxHeader">
+                    <div class="layout__boxTitle">
+                        <h3>Login</h3>
+                    </div>
+                </div>
+                <div class="layout__body">
+                    <h2 class="auth__tagline">Find your study partner</h2>
 
-            <form class="form" action="#">
-              <div class="form__group form__group">
-                <label for="room_name">Username</label>
-                <input id="username" name="username" type="text" placeholder="e.g. dennis_ivy" />
-              </div>
-              <div class="form__group">
-                <label for="password">Password</label>
-                <input
-                  id="password"
-                  name="password"
-                  type="password"
-                  placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;"
-                />
-              </div>
+                    <form class="form" action="#">
+                        <div class="form__group form__group">
+                            <label for="room_name">Username</label>
+                            <input id="username" name="username" type="text" placeholder="e.g. Wambui" />
+                        </div>
+                        <div class="form__group">
+                            <label for="password">Password</label>
+                            <input id="password" name="password" type="password" placeholder="&bull;&bull;&bull;&bull;&bull;&bull;&bull;&bull;" />
+                        </div>
 
-              <button class="btn btn--main" type="submit">
+                        <button class="btn btn--main" type="submit">
                 <svg
                   version="1.1"
                   xmlns="http://www.w3.org/2000/svg"
@@ -104,15 +101,16 @@
 
                 Login
               </button>
-            </form>
+                    </form>
 
-            <div class="auth__action">
-              <p>Haven't signed up yet?</p>
-              <a href="signup.html" class="btn btn--link">Sign Up</a>
+                    <div class="auth__action">
+                        <p>Haven't signed up yet?</p>
+                        <a href="signup.html" class="btn btn--link">Sign Up</a>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
     </main>
-  </body>
+</body>
+
 </html>
