@@ -5,13 +5,12 @@
 
 --> Clone the repository using the command below :
 ```bash
-git clone https://github.com/divanov11/StudyBud.git
-
+https://github.com/alvinking254/ZetHub.git
 ```
 
 --> Move into the directory where we have the project files : 
 ```bash
-cd StudyBud
+cd ZetHub
 
 ```
 
